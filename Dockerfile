@@ -1,5 +1,5 @@
 # 使用支持 Java 17 的官方基础镜像
-FROM eclipse-temurin:17-jdk-jammy
+FROM registry.cn-hangzhou.aliyuncs.com/acs-sample/openjdk:17-jdk-alpine
 
 # 设置容器的工作目录
 WORKDIR /app
