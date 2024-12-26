@@ -1,5 +1,5 @@
 # 使用支持 Java 17 的官方基础镜像
-FROM registry.cn-hangzhou.aliyuncs.com/aliyunfc/runtime-openjdk:17-jdk-slim
+FROM openjdk:17-jdk-slim
 
 # 设置容器的工作目录
 WORKDIR /app
